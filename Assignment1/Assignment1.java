@@ -32,14 +32,14 @@ public class Assignment1 {
         Coins[] coins = {quarters, dimes, nickels, pennies};
 
         //wallet print
-        System.out.println(twenties.toString());
-        System.out.println(tens.toString());
-        System.out.println(fives.toString());
-        System.out.println(ones.toString());
-        System.out.println(quarters.toString());
-        System.out.println(dimes.toString());
-        System.out.println(nickels.toString());
-        System.out.println(pennies.toString());
+        System.out.println(twenties);
+        System.out.println(tens);
+        System.out.println(fives);
+        System.out.println(ones);
+        System.out.println(quarters);
+        System.out.println(dimes);
+        System.out.println(nickels);
+        System.out.println(pennies);
 
         //getting totals for amount and weight
         totalMoney = addNotes(notes) + addCoins(coins);
